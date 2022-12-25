@@ -10,3 +10,10 @@
 #### 2. Minimum Development Cost.
 #### 4. It is low level (raw) form of data and is also human readable.
 #### 5. It helps developers in faster coding, in-turn reduces development cost.
+## Illustrations of the project:
+### Dashboard:
+![Screenshot (442)](https://user-images.githubusercontent.com/87606407/209476040-45b5dcfd-7af5-446f-9761-4965dcf00fd3.png)
+### Database:
+![Screenshot (443)](https://user-images.githubusercontent.com/87606407/209476088-8db7a526-1a3f-4c49-9d07-aa4f9effe7e7.png)
+### Shipment Management HTML Form
+![Screenshot (444)](https://user-images.githubusercontent.com/87606407/209476108-d8dc70cb-9108-448b-a2bd-99a065d617c5.png)
