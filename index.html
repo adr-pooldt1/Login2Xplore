@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipment Management Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Shipment Management Form</h1>
+        <br>
+        <form id="form" method="POST">
+            <div class="form-group">
+                <span><label for="Shipment_no">Shipment No.</label><label id="Shipment_No"></label></span>
+                <input type="text" class="form-control" name="Shipment_no" id="Shipment_no" placeholder="Enter Shipment No."
+                    required>
+            </div>
+            <div class="form-group">
+                <span><label for="description">Description</label></span>
+                <input type="text" class="form-control" name="description" id="description" placeholder="Enter Description" required>
+            </div>
+            <div class="form-group">
+                <span><label for="source">Source</label></span>
+                <input type="text" class="form-control" name="source" id="source" placeholder="Enter Source" required>
+            </div>
+            <div class="form-group">
+                <span><label for="destination">Destination</label></span>
+                <input type="text" class="form-control" name="destination" id="destination" placeholder="Enter Destination "
+                    required>
+            </div>
+
+            <div class="form-group">
+                <span><label for="Shipping_Date">Shipping-Date</label></span>
+                <input type="date" class="form-control" name="Shipping_Date" id="Shipping_Date" placeholder="Enter Shipping-Date"
+                    required>
+            </div>
+            <div class="form-group">
+                <span><label for="Expected_Delivery_Date">Expected-Delivery-Date</label></span>
+                <input type="date" class="form-control" name="Expected_Delivery_Date" id="Expected_Delivery_Date"
+                    placeholder="Enter Expected-Delivery-Date" required>
+            </div>
+            <br>
+            <input type="button" class="btn btn-primary" id="savebutton" value="Save" onclick=RegisterShipment()>
+            <input type="button" class="btn btn-primary" id="update" value="Update" onclick=UpdateShipment()>
+            <input type="button" class="btn btn-primary" id="reset" value="Reset" onclick=resetForm()>
+
+        </form>
+    </div>
+    <script>
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
